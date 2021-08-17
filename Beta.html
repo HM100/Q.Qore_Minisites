@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+	
+
+/* Buttons */
+.wds-button {
+background-color:#00cdd0;
+border-color:#00cdd0;
+color:#000;
+-ms-flex-align:center;
+align-items:center;
+border-style:solid;
+border-width:1px;
+box-sizing:content-box;
+cursor:default;
+display:-ms-inline-flexbox;
+display:inline-flex;
+font-size:12px;
+font-weight:600;
+-ms-flex-pack:center;
+justify-content:center;
+letter-spacing:.15px;
+line-height:16px;
+margin:0;
+min-height:18px;
+outline:0;
+padding:7px 18px;
+text-decoration:none;
+text-transform:uppercase;
+transition-duration:.3s;
+transition-property:background-color,border-color,color;
+vertical-align:top;
+-webkit-appearance:none;
+border-radius:4px;
+background-image:none; /* Supress Gradient set by buttons */
+text-shadow:none; /* Disable Embolding caused by the update */
+}
+
+.wds-button.wds-is-active,.wds-button:active,.wds-button:focus:not(:disabled),.wds-button:hover:not(:disabled){
+background-color:#00686a;
+border-color:#00686a;
+text-decoration:none;
+background-image:none; /* Supress Gradient set by buttons */
+}
+
+.wds-button.wds-is-secondary{
+background-color:transparent;
+border-color:#5f7a7b;
+color:#5f7a7b
+}
+.wds-button.wds-is-secondary.wds-is-active,.wds-button.wds-is-secondary:active,.wds-button.wds-is-secondary:focus:not(:disabled),.wds-button.wds-is-secondary:hover:not(:disabled){
+background-color:transparent;
+border-color:#00686a;
+color:#00686a;
+}
+.wds-button.wds-is-text{
+background-color:transparent;
+color:#5f7a7b;
+border:0
+}
+
+
+.wds-button.wds-is-text.wds-is-active,.wds-button.wds-is-text:active,.wds-button.wds-is-text:focus:not(:disabled),.wds-button.wds-is-text:hover:not(:disabled){
+background-color:transparent;
+color:#00686a}
+
+.wds-button.wds-is-secondary.wds-is-light, .wds-button.wds-is-text.wds-is-light {
+	filter:inver(1) hue-rotate(180deg);
+}
+
+a.wds-button, button.wds-button {
+	cursor:pointer;
+}
+
+	html {
+		max-width:960px;	
+		margin:0 auto;
+		scrollbar-width:none;
+	}
+	
+::-webkit-scrollbar {
+		dispaly:none;
+		width:0;
+		height:0;
+	}
+
+	body {
+		font-weight:500;
+		word-spacing:-0.5px;	
+		margin:0 auto;	
+		font-size:14px;
+		position:relative;
+		max-width:inherit;
+		box-shadow:0 0 40px 0px;
+		overflow:hidden;
+		font-family:Inter, fantasy;
+	}
+	
+	main {
+		background-color:#d8d9e0;
+		margin:0 auto;
+		max-width:inherit;
+		position:relative;
+		overflow-y:auto;
+		height:100vh;
+		scrollbar-width:none;
+		-ms-overflow-style:none;
+		-webkit-transition:background-color 400ms ease;
+		transition:background-color 400ms ease;
+/*
+		display:table-cell;
+*/
+		width:960px;
+		height:100vh;
+		text-align:center;
+		font-size:20px;
+		box-shadow:0 0 20px 10px yellow inset, 0 0 10px 5px black inset;
+		padding:20px;
+		text-shadow:0 2px 2px white, 2px 0 2px white, 1px 1px white;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		box-sizing:border-box;
+	}
+	.icons {
+		margin:5px 0;
+	}
+	.icons svg {
+		margin:0 5px;
+		width:80px;
+		height:80px;
+		color:#070714;
+	}
+</style>
+<title>Downloading Qora Qore Beta</title>
+<body>
+<main>
+<div>
+<img height="144" src="BetaQ.png" />
+</div>
+		<div style="font-size:150%; font-weight:bold; line-height:1.6;">Instructions</div>
+		<ol style="text-align:left; line-height:1.2;">
+		<li>Download the Stable Channel <a href="https://drive.google.com/file/d/1B-zz2-D50fDs00CydjATk1xMxy7k7RnE/view?usp=sharing">here</a></li>
+		<li>Extract the files of the Stable channel into a folder names Qora Qore ΙΛ or similar</li>
+		<li>Download the beta Channel (It is on the bottom button called <b>Download Beta Channel</b>).</li>
+		<li>Extract the files of the Beta channel into a different folder</li>
+		<li>Move the files of the Beta channel to the files where the Stable channel was extracted. Once windows asks you what to do with the files, replace them.</li>
+		<li>Open game.rxproj if you have RPG XP and do a playtest (If you don't have it, after the game loads, press F12) in order to compile data.</li>
+		<li>If title screen shows the Beta Channel logo, you're at Beta Channel</li>
+		</ol>
+<div>
+		<a class="wds-button" href="https://drive.google.com/file/d/1l2H1Eyy3c8LCUMibSONtyI8o_S0l9vZ-/view?usp=sharing">Download Beta Channel Files</a>
+</div>
+
+</main>
+
+<meta name="viewport" content="width=960px user-scalable=no">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet"> 
+</body>
